@@ -12,6 +12,7 @@ class LeftDrawer extends StatelessWidget {
       child: ListView(
         children: [
           const DrawerHeader(
+            // TODO: Bagian drawer header (DONE)
             decoration: BoxDecoration(
               color: Colors.indigo,
             ),
@@ -39,6 +40,7 @@ class LeftDrawer extends StatelessWidget {
               ],
             ),
           ),
+          // TODO: Bagian routing (DONE)
           ListTile(
             leading: const Icon(Icons.home_outlined),
             title: const Text('Halaman Utama'),
@@ -56,6 +58,11 @@ class LeftDrawer extends StatelessWidget {
             title: const Text('Tambah Produk'),
             // Bagian redirection ke ShopFormPage
             onTap: () {
+              /*
+              TODO: Buatlah routing ke ShopFormPage di sini,
+              setelah halaman ShopFormPage sudah dibuat.
+              (DONE)
+              */
               Navigator.push(
                 context,
                 MaterialPageRoute(
