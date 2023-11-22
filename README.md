@@ -1,3 +1,8 @@
+Tautan build badge (format markdown): [![Build status](https://build.appcenter.ms/v0.1/apps/59f15fa9-d52f-4759-8c05-4569333e6b7e/branches/main/badge)](https://appcenter.ms)
+
+
+Tautan publik aplikasi: install.appcenter.ms/orgs/wifty/apps/shopping-list/distribution_groups/public
+
 # shopping_list
 
 A new Flutter project.
